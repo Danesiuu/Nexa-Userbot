@@ -4,7 +4,7 @@
 import os
 
 class Config(object):
-    APP_ID = os.environ.get("APP_ID", "")
+    APP_ID = os.environ.get("23990748", "")
     API_HASH = os.environ.get("API_HASH", "")
     # Pyrogram Session
     PYRO_STR_SESSION = os.environ.get("PYRO_STR_SESSION", "")
